@@ -42,10 +42,11 @@ El proyecto sigue una estructura modular:
 
 ---
 
-## Instrucciones de instalación
-1. Crear entorno virtual  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   
+## ⚙️ Instrucciones de instalación y ejecución
+
+Para ejecutarlo, crear un entorno virtual con python -m venv venv y activarlo (source venv/bin/activate en Linux o venv\Scripts\activate en Windows). Luego instalar dependencias con pip install -r requirements.txt, generar la base de datos y usuarios de prueba con python seed_data.py, e iniciar el servidor con python app.py. La API estará disponible en http://127.0.0.1:5000 para probar los endpoints mediante Postman.
+
+
+
+
 
